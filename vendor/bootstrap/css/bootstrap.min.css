@@ -1056,6 +1056,29 @@ img {
 	vertical-align: middle;
 	border-radius:10px;
 }
+div.fill-screen {
+    position:relative;
+    background-color:#696969;
+    text-align: center;
+	margin-top:30px;
+	
+}
+
+img.make-it-fit {
+	
+    max-width: 50%;
+    max-height: 30%;
+}
+
+
+
+
+
+
+
+
+
+
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
 	display: block;
 	max-width: 100%;
@@ -1214,10 +1237,7 @@ p {
 .div_p{
 	padding-top:0px;
 	}
-.banner{
-	width:100%;
-	
-	}
+
 a.text-primary:focus, a.text-primary:hover {
 	color: #286090
 }
@@ -1430,6 +1450,7 @@ pre code {
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
+	
 }
 
 @media (min-width:768px) {
@@ -5660,40 +5681,27 @@ tr.visible-xs {
 td.visible-xs, th.visible-xs {
 	display: table-cell!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
 }
 
 @media (max-width:767px) {
 .visible-xs-block {
 	display: block!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 
 @media (max-width:767px) {
 .visible-xs-inline {
 	display: inline!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 
 @media (max-width:767px) {
 .visible-xs-inline-block {
 	display: inline-block!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 
 @media (min-width:768px) and (max-width:991px) {
@@ -5709,10 +5717,7 @@ tr.visible-sm {
 td.visible-sm, th.visible-sm {
 	display: table-cell!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 
 @media (min-width:768px) and (max-width:991px) {
@@ -5725,20 +5730,14 @@ td.visible-sm, th.visible-sm {
 .visible-sm-inline {
 	display: inline!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 
 @media (min-width:768px) and (max-width:991px) {
 .visible-sm-inline-block {
 	display: inline-block!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 
 @media (min-width:992px) and (max-width:1199px) {
@@ -5754,40 +5753,28 @@ tr.visible-md {
 td.visible-md, th.visible-md {
 	display: table-cell!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 
 @media (min-width:992px) and (max-width:1199px) {
 .visible-md-block {
 	display: block!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 
 @media (min-width:992px) and (max-width:1199px) {
 .visible-md-inline {
 	display: inline!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 
 @media (min-width:992px) and (max-width:1199px) {
 .visible-md-inline-block {
 	display: inline-block!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 
 @media (min-width:1200px) {
@@ -5803,80 +5790,56 @@ tr.visible-lg {
 td.visible-lg, th.visible-lg {
 	display: table-cell!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 
 @media (min-width:1200px) {
 .visible-lg-block {
 	display: block!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 
 @media (min-width:1200px) {
 .visible-lg-inline {
 	display: inline!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 
 @media (min-width:1200px) {
 .visible-lg-inline-block {
 	display: inline-block!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 
 @media (max-width:767px) {
 .hidden-xs {
 	display: none!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 
 @media (min-width:768px) and (max-width:991px) {
 .hidden-sm {
 	display: none!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 
 @media (min-width:992px) and (max-width:1199px) {
 .hidden-md {
 	display: none!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 
 @media (min-width:1200px) {
 .hidden-lg {
 	display: none!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 .visible-print {
 	display: none!important
@@ -5899,10 +5862,7 @@ td.visible-print, th.visible-print {
 .visible-print-block {
 	display: none!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 
 @media print {
 .visible-print-block {
@@ -5912,10 +5872,7 @@ td.visible-print, th.visible-print {
 .visible-print-inline {
 	display: none!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 
 @media print {
 .visible-print-inline {
@@ -5925,27 +5882,18 @@ td.visible-print, th.visible-print {
 .visible-print-inline-block {
 	display: none!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 @media print {
 .visible-print-inline-block {
 	display: inline-block!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 
 @media print {
 .hidden-print {
 	display: none!important
 }
-.banner{
-	width:100%;
-	height:90%;
-	}
+
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
