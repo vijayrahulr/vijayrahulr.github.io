@@ -1101,8 +1101,68 @@ img.make-it-fit {
 	transition: all .2s ease-in-out
 }
 .img-circle {
-	border-radius: 50%
+	position: relative;
+    float: left;
+    width:  60%;
+    height: 60%;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
 }
+.img-circle1 {
+	position: relative;
+    float: left;
+    width:  65%;
+    height: 60%;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+.img-circle2 {
+	position: relative;
+    float: left;
+    width:  65%;
+    height: 60%;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+.img-circle3 {
+	position: relative;
+    float: left;
+    width:  50%;
+    height: 60%;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+.img-circle4 {
+	position: relative;
+    float: left;
+    width:  40%;
+    height: 60%;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+.img-circle5 {
+	position: relative;
+    float: left;
+    width:  40%;
+    height: 60%;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+
+
+
+
+
+
+
+
 hr {
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -1179,7 +1239,7 @@ hr {
 	font-size: 12px
 }
 p {
-	margin: 0 0 10px
+	margin: 5 0 10px
 }
 .lead {
 	margin-bottom: 20px;
@@ -1226,7 +1286,9 @@ p {
 }
 
 .text-muted {
-	color: #777
+	color: #777;
+	margin-top:5px;
+	
 }
 .text-primary {
 	color: #337ab7
