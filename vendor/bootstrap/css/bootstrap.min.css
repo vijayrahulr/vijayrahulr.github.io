@@ -63,7 +63,8 @@ sub {
 	bottom: -.25em
 }
 img {
-	border: 0
+	border: 0;
+	
 }
 svg:not(:root) {
 	overflow: hidden
@@ -149,6 +150,43 @@ table {
 td, th {
 	padding: 0
 }/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+
+.Stext{
+	color:white;
+	display:inline-block;
+	text-align: justify;
+	border:2px red solid;
+	border-radius:10px;
+	}
+	.Jtext{
+	color:white;
+	display:inline-block;
+	text-align: justify;
+	border:2px red solid;
+	border-radius:10px;
+	}
+	.Vtext{
+	color:white;
+	display:inline-block;
+	text-align: justify;
+	border:2px red solid;
+	border-radius:10px;
+	}
+	.Ktext{
+	color:white;
+	display:inline-block;
+	text-align: justify;
+	border:2px red solid;
+	border-radius:10px;
+	
+	}
+	.Atext{
+	color:white;
+	display:inline-block;
+	text-align: justify;
+	border:2px red solid;
+	border-radius:10px;
+	}
 
 @media print {
 *, :after, :before {
@@ -1080,7 +1118,10 @@ img.make-it-fit {
 
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-	display: block;
+	
+  display:block;
+  text-indent:20px;
+ 
 	max-width: 100%;
 	height: auto
 }
