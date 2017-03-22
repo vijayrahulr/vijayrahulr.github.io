@@ -186,6 +186,7 @@ td, th {
 	text-align: justify;
 	border:2px red solid;
 	border-radius:10px;
+	padding-right: 20 px
 	}
 
 @media print {
@@ -1328,7 +1329,7 @@ p {
 
 .text-muted {
 	color: #777;
-	margin-top:5px;
+	margin-top:10px;
 	
 }
 .text-primary {
